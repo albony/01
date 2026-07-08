@@ -5,6 +5,7 @@ KEY=0
 
 for file in $FILES
 do
+    echo $file
     if [[ $file =~ \.key$ ]]
     then
         tmp=$(< $file)
